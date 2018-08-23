@@ -1,0 +1,11 @@
+@import 'base/*.scss';
+@import 'components/*.scss';
+@import 'partials/*.scss';
+
+.testing {
+  transform: scaleX(3);
+}
+
+.what {
+  text-align: center;
+}
