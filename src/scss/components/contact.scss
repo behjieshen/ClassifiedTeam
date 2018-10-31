@@ -1,0 +1,98 @@
+.contact-form {
+  input,
+  textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    margin-bottom: 40px;
+    padding: 14px 6px;
+    font-size: 20px;
+  }
+
+  textarea {
+    margin-bottom: 0;
+  }
+
+  .contact-form-remaining {
+    text-align: right;
+  }
+}
+
+.contact {
+  padding-bottom: 300px;
+}
+
+.button-contact {
+  text-align: center;
+}
+
+.butt-con {
+  background: BLACK;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  line-height: 4.5;
+}
+.copyright {
+  padding: 40px 0px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+// .contact-button {
+//   text-align: center;
+// }
+//
+// .contact-butt {
+//   background: BLACK;
+//   padding: 10px 20px;
+//   border-radius: 4px;
+//   font-size: 20px;
+//   color: white;
+//   cursor: pointer;
+//   line-height: 4.5;
+// }
+// .border-form-control {
+//   height: 48px;
+//   padding: 8px 4px;
+//   font-size: 16px;
+//   letter-spacing: 1px;
+//   background-color: transparent !important;
+//   border-top: transparent;
+//   border-right: transparent;
+//   border-left: transparent;
+//   border-bottom-width: 1px;
+// }
+// .sm-form-control {
+//   display: block;
+//   width: 100%;
+//   padding: 8px 14px;
+//   font-size: 15px;
+//   line-height: 1.42857143;
+//   color: #555;
+//   background-color: #fff;
+//   background-image: none;
+//   border: 2px solid #white;
+//   border-radius: 0 !important;
+//   -webkit-transition: border-color ease-in-out 0.15s;
+//   -o-transition: border-color ease-in-out 0.15s;
+//   transition: border-color ease-in-out 0.15s;
+//   height: auto;
+// }
+// input {
+//   -webkit-appearance: textfield;
+//   background-color: white;
+//   -webkit-rtl-ordering: logical;
+//   cursor: text;
+//   padding: 1px;
+//   border-width: 2px;
+//   border-style: inset;
+//   border-color: initial;
+//   border-image: initial;
+// }
