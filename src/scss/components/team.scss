@@ -1,0 +1,87 @@
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &:nth-child(3) {
+    justify-content: center;
+  }
+}
+
+.team-item {
+  text-align: center;
+  width: calc(50% - 10px);
+  margin-bottom: 80px;
+
+  &:nth-child(2n-1) {
+    margin-right: 20px;
+  }
+
+  &-title {
+    margin: 0;
+    margin-top: 14px;
+    font-size: 20px;
+  }
+
+  &-role {
+    margin: 14px 0;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  &-description {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 400;
+    width: 90%;
+    margin-bottom: 20px;
+    color: #999;
+  }
+
+  &-social {
+    display: flex;
+    justify-content: center;
+    i {
+      padding: 12px;
+      background: $primary-color;
+      border-radius: 50%;
+      color: white;
+      margin: 0 10px;
+      font-size: 18px;
+      width: 18px;
+      height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.2s all;
+    }
+
+    a:hover {
+      i {
+        background: color-opacity($primary-color, 0.7);
+      }
+    }
+  }
+
+  &-image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .team-item {
+    width: 100%;
+  }
+
+  .team-item:nth-child(2n-1) {
+    margin-right: 0;
+  }
+
+  .team-container {
+    &:nth-child(3) {
+      .team-item {
+        margin: 0;
+      }
+    }
+  }
+}
