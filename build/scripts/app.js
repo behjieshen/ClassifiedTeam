@@ -1,1 +1,0 @@
-var hello=10;function testFunction(){console.log("wtf")}

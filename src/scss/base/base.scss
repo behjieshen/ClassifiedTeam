@@ -1,0 +1,99 @@
+* {
+  font-family: 'Montserrat';
+}
+
+@function color-opacity($color, $opacity) {
+  @return rgba($color, $opacity);
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  outline-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0;
+}
+
+@media screen and (min-width: 993px) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+}
+
+body {
+  background: black;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.main-left {
+  background: white;
+}
+
+.main-right {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/background.jpeg);
+  width: 30%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 80% !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-right {
+    width: 0;
+  }
+
+  .main-left {
+    width: 100%;
+  }
+}

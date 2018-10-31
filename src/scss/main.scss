@@ -1,11 +1,5 @@
+@import 'vendors/hamburgers/hamburgers.scss';
+@import 'vendors/aos/aos.scss';
+@import 'vendors/*.scss';
 @import 'base/*.scss';
 @import 'components/*.scss';
-@import 'partials/*.scss';
-
-.testing {
-  transform: scaleX(3);
-}
-
-.what {
-  text-align: center;
-}
